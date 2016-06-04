@@ -8,7 +8,7 @@
 # Site settings
 title: Xavipgweb
 description: > # this means to ignore newlines until "baseurl:"
-  Hola, que hase? ESTOY EN INTERNET!!
+  XaviPG's official blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
