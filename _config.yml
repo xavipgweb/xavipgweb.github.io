@@ -7,7 +7,6 @@
 
 # Site settings
 title: Bienvenido a mi web!
-email: xavipgweb@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hola, que hase? ESTOY EN INTERNET!!
 baseurl: "" # the subpath of your site, e.g. /blog
