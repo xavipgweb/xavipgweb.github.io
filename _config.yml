@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Xavipgweb
+title: XaviPGweb
 description: > # this means to ignore newlines until "baseurl:"
   XaviPG's official blog.
 baseurl: "" # the subpath of your site, e.g. /blog
