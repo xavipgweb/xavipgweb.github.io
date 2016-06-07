@@ -1,5 +1,6 @@
  var element = document.getElementById("text");
-  function myFunction(){
+ var element = document.getElementById("text");
+  function ok(){
   var rnd = Math.floor((Math.random() * 3) + 1);
   if (rnd == 1){
   element.innerHTML = "1";
