@@ -19,7 +19,7 @@
   function start(){
    var rnd = Math.floor((Math.random() * 3) + 1);
    if (rnd == 1){
-    element.innerHTML = "You are in a forest. There is an axe near you";
+    element.innerHTML = "Youi are in a forest. There is an axe near you";
     paragraph1.innerHTML = "Take a walk";
     
    }
