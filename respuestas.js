@@ -1,4 +1,4 @@
- var paragraph1 = document.getElementById("paruno").textContent;
+ var paragraph1 = document.getElementById("paruno");
  var paragraph2 = document.getElementById("pardos");
  var paragraph3 = document.getElementById("partres");
  var element = document.getElementById("text");
