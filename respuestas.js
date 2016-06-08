@@ -1,6 +1,6 @@
- var paragraph1 = document.getElementById("1");
- var paragraph2 = document.getElementById("2");
- var paragraph3 = document.getElementById("3");
+ var paragraph1 = document.getElementById("paruno");
+ var paragraph2 = document.getElementById("pardos");
+ var paragraph3 = document.getElementById("partres");
  var element = document.getElementById("text");
  
   function ok(){
