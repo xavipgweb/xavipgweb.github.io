@@ -1,5 +1,5 @@
- var paragraph1 = document.getElementById("1");
- var paragraph2 = document.getElementById("2");
+ var paragraph1 = document.getElementById("par");
+ /*var paragraph2 = document.getElementById("2");
  var paragraph3 = document.getElementById("3");
  var element = document.getElementById("text");
  
@@ -15,10 +15,11 @@
     paragraph3.innerHTML = "3";
    }
  }
-
+*/
   function start(){
    var rnd = Math.floor((Math.random() * 3) + 1);
-   if (rnd == 1){
+   paragraph1.innerHTML = "Take a walk";
+  /* if (rnd == 1){
     element.innerHTML = "You are in a forest. There is an axe near you";
     paragraph1.innerHTML = "Take a walk";
     paragraph2.innerHTML = "Wait a few minutes";
@@ -35,5 +36,5 @@
     paragraph1.innerHTML = "Drive the rover";
     paragraph2.innerHTML = "Try to communicate";
     paragraph3.innerHTML = "Take a walk";
-   }
+   }*/
   }
