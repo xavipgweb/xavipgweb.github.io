@@ -4,6 +4,7 @@
  var element = document.getElementById("text");
  
   function ok(){
+   try{
    var rnd = Math.floor((Math.random() * 3) + 1);
    if (rnd == 1){
     paragraph1.innerHTML = "1";
@@ -14,9 +15,13 @@
    if (rnd == 3){
     paragraph3.innerHTML = "3";
    }
+   }catch{
+    
+   }
  }
 
   function start(){
+   try{
    var rnd = Math.floor((Math.random() * 3) + 1);
    if (rnd == 1){
     element.innerHTML = "You are in a forest. There is an axe near you";
@@ -35,5 +40,9 @@
     paragraph1.innerHTML = "Drive the rover";
     paragraph2.innerHTML = "Try to communicate";
     paragraph3.innerHTML = "Take a walk";
+   }
+   }catch{
+    
+   }
    }
   }
