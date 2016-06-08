@@ -25,7 +25,7 @@
     paragraph3.innerHTML = "Grab the axe";
    }
    if (rnd == 2){
-    element.innerHTML = "You are at the beach. There is a hill";
+    element.innerHTML = "Youu are at the beach. There is a hill";
     paragraph1.innerHTML = "Swim";
     paragraph2.innerHTML = "Run to the hill";
     paragraph3.innerHTML = "Wait a few minutes";
