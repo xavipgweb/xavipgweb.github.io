@@ -29,7 +29,7 @@
    
    }
    if (rnd == 3){
-    element.innerHTML = "You are at the Moon. There is a rover";
+    element.innerHTML = "You are on the Moon. There is a rover";
     paragraph1.textContent = "Drive the rover";
     
    }
