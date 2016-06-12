@@ -1,7 +1,7 @@
  
+ var rnd = Math.floor((Math.random() * 3) + 1);
  
   function start(){
-   var rnd = Math.floor((Math.random() * 3) + 1);
    var par_one = document.getElementById("paruno");
    var par_two = document.getElementById("partwo");
    var par_three = document.getElementById("parthree");
