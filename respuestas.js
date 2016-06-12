@@ -2,5 +2,6 @@
  var element = document.getElementById("text");
  
   function start(){
-   par_one.innerHTML = "Swim";
+   document.getElementById("paruno").innerHTML = "Swim.";
+   document.getElementById("text").innerHTML = "Hi";
   }
