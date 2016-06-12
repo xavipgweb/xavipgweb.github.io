@@ -26,3 +26,16 @@
    element.innerHTML = "You are on the Moon. There is a rover.";
    }
   }
+  
+  function ok(){
+    var rad_one = document.getElementById("rad").checked;
+    var rad_two = document.getElementById("rad2").checked;
+    var rad_three = document.getElementById("rad3").checked;
+    
+    if ((rnd == 1)&&(rad_one)){
+     par_one.innerHTML = "Take a walk";
+    par_two.innerHTML = "Wait a few minutes";
+    par_three.innerHTML = "Drive the rover";
+    element.innerHTML = "You are on the Moon. There is a rover.";
+    }
+   }
