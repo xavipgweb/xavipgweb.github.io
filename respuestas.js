@@ -28,14 +28,19 @@
   }
   
   function ok(){
-    var rad_one = document.getElementById("rad").checked;
-    var rad_two = document.getElementById("rad2").checked;
-    var rad_three = document.getElementById("rad3").checked;
+   var par_one = document.getElementById("paruno");
+   var par_two = document.getElementById("partwo");
+   var par_three = document.getElementById("parthree");
+   var element = document.getElementById("text");
+   
+   var rad_one = document.getElementById("rad").checked;
+   var rad_two = document.getElementById("rad2").checked;
+   var rad_three = document.getElementById("rad3").checked;
     
-    if ((rnd == 1)&&(rad_one)){
-     par_one.innerHTML = "Take a walk";
+   if ((rnd == 1)&&(rad_one)){
+    par_one.innerHTML = "Take a walk";
     par_two.innerHTML = "Wait a few minutes";
     par_three.innerHTML = "Drive the rover";
     element.innerHTML = "You are on the Moon. There is a rover.";
     }
-   }
+  }
