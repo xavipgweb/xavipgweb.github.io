@@ -33,7 +33,7 @@
    var par_three = document.getElementById("parthree");
    var element = document.getElementById("text");
    
-   var rad_one = document.getElementById("rad").checked;
+   var rad_one = document.getElementById("rad1").checked;
    var rad_two = document.getElementById("rad2").checked;
    var rad_three = document.getElementById("rad3").checked;
     
