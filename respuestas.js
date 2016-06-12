@@ -4,6 +4,6 @@
     var par_one = document.getElementById("paruno");
     var element = document.getElementById("text");
     
-    par_one.innerHTML = "Walk";
+    document.getElementById("paruno").innerHTML = "Walk";
     element.innerHTML = "Hi";
   }
