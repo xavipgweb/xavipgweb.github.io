@@ -6,7 +6,15 @@ layout: default
   <h1 id = "text">caca</h1>
 
   <script >
-    document.getElementById("text").innerHTML("LOL");
+    var days = 281;
+
+    function count(){
+      while(1>0){
+      sleep(86400000);
+      days--;
+      document.getElementById("text").innerHTML = days.toString;
+      }
+    }
 </script>
   
 </body>
