@@ -6,14 +6,15 @@ layout: default
   <h1 id = "text">caca</h1>
 
   <script >
-    var days = 280;
+    var d = new Date();
+    var oneDay = 24*60*60*1000;
+    var firstDate = new Date(d.getFullYear(), d.getMonth(), d.getDay());
+    var secondDate = new Date(d.getFullYear(), 6, 16);
 
-    while(1>0){
-       document.getElementById("text").innerHTML = "Quedan " + parseInt(days) + "<br>" + " días";
-      sleep(86400000);
-      days--;
-      
-    }
+    var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+
+    document.getElementById("text").innerHTML = "Quedan " + parseInt(diffDays) + "<br>" + " días";
+
 </script>
   
 </body>
