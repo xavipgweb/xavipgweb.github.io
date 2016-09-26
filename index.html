@@ -4,13 +4,17 @@ layout: default
 
 <body>
   <h1 id = "text">Error</h1>
+  <h2 id = "text2">Error</h2>
 
   <script >
     var today = new Date();
     var date_to_reply = new Date('2017-06-16');
+    var date_to_reply2 = new Date('2016-12-22');
     var timeinmilisec = today.getTime() - date_to_reply.getTime();
+    var timeinmilisec2 = today.getTime() - date_to_reply2.getTime();
 
-    document.getElementById("text").innerHTML = "Quedan " + parseInt(Math.floor(timeinmilisec / (1000 * 60 * 60 * 24))) + "<br>" + " dias";
+    document.getElementById("text").innerHTML = "Quedan " + parseInt(Math.floor(timeinmilisec / (1000 * 60 * 60 * 24))) + "<br>" + " dias para verano";
+    document.getElementById("text2").innerHTML = "Quedan " + parseInt(Math.floor(timeinmilisec2 / (1000 * 60 * 60 * 24))) + "<br>" + " dias para navidad";
 
 </script>
   
