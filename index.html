@@ -2,7 +2,7 @@
   <body>
     <h1>
       <div align="center">
-      <form> 
+      <form id = "form"> 
        Introdueix la contrasenya<br> 
         <input type = "text" name = "contrasenya" id = "contra" size = "45"><br>
         <input type = "button" value = "Entra" style="height:50px;width:200px" id = "entra">
@@ -10,6 +10,14 @@
       </div>
     </h1>
   </body>
+  <script type = "text/javascript">
+    var form = document.getElementById("form");
+
+    document.getElementById("entra").addEventListener("click", function () {
+    document.body.innerHTML = '';
+    });
+  </script>
+ </html>
 <!--
 ---
 layout: default
@@ -40,7 +48,7 @@ layout: default
   
 </body>
 -->
-  </html>
+  
 
 
 
