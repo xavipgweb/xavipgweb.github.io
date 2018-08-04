@@ -1,12 +1,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>HAPPY BIRTHDAY!</title>
+    <title>HAPPY BDAY!</title>
     <script>
         function go(){
             txt = document.getElememtById("pass");
+            txt2 = document.getELementById("txt");
             if (txt.value == "happybday"){
-                
+                txt2.style.color = 'red';
             }
         }
     </script>
@@ -16,7 +17,7 @@
     <br>
     <input type="text" id="pass">
     <br>
-    <button type="button">GO</button>
+    <button type="button" onclick="go()">GO</button>
     <br>
     <h2 id="txt">HOLA</h2>
 </body>
