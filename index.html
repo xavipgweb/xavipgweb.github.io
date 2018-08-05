@@ -1,26 +1,26 @@
+
+
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>HAPPY BDAY!</title>
-    <script>
-        function go(){
-            txt = document.getElememtById("pass");
-            txt2 = document.getELementById("txt");
-            txt2.innerHTML("holas");
-            if (txt.value == "happybday"){
-                txt2.style.color = 'red';
-            }
-        }
-    </script>
+    <title>HAPPY BIRTHDAY!</title>     
 </head>
+
+<script type="text/javascript">
+function go(){
+	if (document.getElementById("pass").value == "happybday"){
+		document.getElementById("txt").style.color = "black";
+	}
+}
+</script>
+
 <body>
     <h1>Write the password</h1>
     <br>
     <input type="text" id="pass">
     <br>
-    <button type="button" onclick="go()">GO</button>
+    <button onclick="go()">GO</button>
     <br>
-    <h2 id="txt">HOLA</h2>
+    <h2 style="color:white" id="txt">Happy birthday!!! I hope you have an extremely great day. To be honest, in the last few weeks, you have become one of my best friends, mostly because I never get tired of talking to you. I know I'm hyper-annoying, and I'm sorry, but you know, you are one of the few persons I know that I can talk with feeling relaxed and forgetting about bad things for a while. Well, I know you would have preferred a drawing but as I am probably the worst artist in the world, this is the most original thing I thought of, so as you sure are getting bored, I just want you to know that I appreciate you a lot and I hope to see you soon in real life :D Sorry if I made lots of mistakes by the way.  </h2>
 </body>
 </html>
-
