@@ -7,16 +7,38 @@
 </head>
 
 <script type="text/javascript">
+var firstword_r = ["Landscape", "Animals", "People", "Food"];
+var secword_r = ["with", "at", "of"];
+var thirdword_r = ["Animals", "Different countries", "Fun places"];
+	
 function go(){
-	var firstword_r = ["Landscape", "Animals", "People", "Food"];
-	var secword_r = ["with", "in", "of"];
-	var thirdword_r = ["Animals", "Fun places", "Different countries"];
+	firstword_r = ["Landscape", "Animals", "People", "Food"];
+	//secword_r = ["with", "at", "of"];
+	thirdword_r = ["Different countries", "Fun places"];
 	
-	var rnd = Math.floor(Math.random()*3);
+	var firstword = fw(0, 3);
 	
+	var thirdword = tw(0, 1);
+	
+	document.getElementById("txt").innerHTML = firstword + " and " + thirdword;
+}
+	
+function fw(min, max){
+	var rnd = Math.floor((Math.random() * max) + min)
 	var firstword = firstword_r[rnd];
+	return firstword;
+}
 	
-	document.getElementById("txt").innerHTML = firstword + " " + rnd;
+function sw(){
+	var rnd = Math.floor((Math.random() * max) + min)
+	var secondword = secondword_r[rnd];
+	return secondword;
+}
+	
+function tw(){
+	var rnd = Math.floor((Math.random() * max) + min)
+	var thirdword = thirdword_r[rnd];
+	return thirdword;
 }
 </script>
 
