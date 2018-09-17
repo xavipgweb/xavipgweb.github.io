@@ -8,13 +8,22 @@
 
 <script type="text/javascript">
 function go(){
-	if (document.getElementById("pass").value == "ellaisthebest"){
-		document.getElementById("txt").style.color = "black";
-	}
+	var firstword_r = ["Landscape", "Animals", "People", "Food"];
+	var secword_r = ["with", "in", "of"];
+	var thirdword_r = ["Animals", "Fun places", "Different countries"];
+	
+	var rnd = Math.floor((Math.random()*4)+1);
+	
+	var firstword = firstword_r[rnd];
+	
+	document.getElementById("txt").innerHTML = firstword;
 }
 </script>
 
 <body>
+	<h1 id="txt">Press the button</h1>
+	<br>
+	<button onclick="go()">GO</button>
 	<a href="http://xavipgweb.github.io/hbday">Special</a>
 </body>
 </html>
