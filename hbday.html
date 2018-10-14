@@ -11,7 +11,7 @@
 function go(){
 	
 	today = new Date();
-	var june = new Date(today.getFullYear(), 5, 20)
+	var june = new Date(1, 5, 20)
 	var oneday = 1000*60*60*24
 	document.getElementById("dte").innerHTML = Math.ceil((june.getTime()-today.getTime())/(oneday))
 
