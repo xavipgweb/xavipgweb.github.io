@@ -7,6 +7,12 @@
 </head>
 
 <script type="text/javascript">
+	
+	today = new Date();
+	var june = new Date(today.getFullYear(), 5, 20)
+	var oneday = 1000*60*60*24
+	document.getElementById("dte").innerHTML = Math.ceil((June.getTime()-today.getTime())/(oneday))
+
 function go(){
 	if (document.getElementById("pass").value == "ellaisthebest"){
 		document.getElementById("txt").style.color = "black";
